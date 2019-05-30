@@ -4,8 +4,8 @@ font-family: 'Hanna';
 }
 
 @font-face{
-src:url("https://jinwoo-choi.github.io/fonts/NanumGothic.ttf");
-font-family: 'NanumGothic';
+src:url("https://jinwoo-choi.github.io/fonts/Jua.ttf");
+font-family: 'Jua';
 }
 
 /*/////////////////////////////////////////////*/
@@ -14,7 +14,7 @@ body {
   background-color: white;
 }
 h1 {
-  text-shadow: 7px 7px 10px blue;
+  text-shadow: 7px 7px 10px skyblue;
   text-align:center;
   color: skyblue;
   font-family: 'Hanna';
@@ -23,6 +23,6 @@ h1 {
 p {
   text-align:center;
   color: black;
-  font-family: 'NanumGothic';
+  font-family: 'Jua';
   font-size: 500%;
 }
