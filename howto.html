@@ -4,11 +4,18 @@
 <style>
 
 div {
-  text-align: center
-  width: 370px;
+  border: 3px solid green;
   padding: 10px;
-  border: 5px solid green;
-  margin: 0;
+}
+
+.pictures {
+  float: left;
+  margin-right: 10px;
+}
+
+.clearfix {
+  overflow: auto;
+
 }
 
 </style>
@@ -20,15 +27,64 @@ div {
 
 <body>
 
-<h2>GitHub로 홈페이지 만들기</h2>
-
-<img src="https://jinwoo-choi.github.io/pictures/howto_01.png" width="400" height="300" alt="howto_01"float:center;>
-<div>'https://github.com' 에 접속해 로그인한다. 여기서는 계정이 없다는 가정하에 진행한다. 'Sign up for Github' 버튼을 누른다.</div>
-
-<img src="https://jinwoo-choi.github.io/pictures/howto_02.png" width="400" height="300" alt="howto_02"float:center;>
-<div>가입에 필요한 정보들을 양식에 기입한다. 다 기입했으면 'Create an account' 버튼을 눌러 계정 생성을 완료한다.</div>
 
 
+<div class="clearfix">
+<img class="pictures" src="https://jinwoo-choi.github.io/pictures/howto_01.png" width="400" height="400" alt="howto_01">
+'https://github.com' 에 접속해 로그인한다. 여기서는 계정이 없다는 가정하에 진행한다. 'Sign up for Github' 버튼을 누른다.
+</div>
+
+<hr>
+
+<div class="clearfix">
+<img class="pictures" src="https://jinwoo-choi.github.io/pictures/howto_02.png" width="400" height="400" alt="howto_02">
+가입에 필요한 정보들을 양식에 기입한다. 다 기입했으면 'Create an account' 버튼을 눌러 계정 생성을 완료한다.
+</div>
+
+<hr>
+
+<div class="clearfix">
+<img class="pictures" src="https://jinwoo-choi.github.io/pictures/howto_03.png" width="400" height="150" alt="howto_02">
+기입했던 이메일 주소와 비밀번호로 로그인한다. 계정 로그인을 한 뒤 나오는 창에서 좌측 'Repositories'의 'Create a repository' 를 클릭한다.
+</div>
+
+<hr>
+
+<div class="clearfix">
+<img class="pictures" src="https://jinwoo-choi.github.io/pictures/howto_04.png" width="500" height="400" alt="howto_04">
+Respository name은 ‘사용자이름.github.io’ 형식으로 입력한다. 본인의 사용자 이름은 'JINWOO-CHOI' 이므로 Repository name은 ‘JINWOO-CHOI.github.io'로 입력했다. 입력이 완료되었으면 'Create repository' 버튼을 눌러 작업을 완료한다.
+</div>
+
+<hr>
+
+<div class="clearfix">
+<img class="pictures" src="https://jinwoo-choi.github.io/pictures/howto_05.png" width="500" height="400" alt="howto_05">
+생성이 완료되었으면 잠시 Github 인터넷 창을 닫아두고 'https://desktop.github.com'에 접속해 'Github desktop' 프로그램을 설치한다. 설치가 완료되면 'Sign in to GitHub.com' 을 클릭해 자신의 계정으로 로그인한다.
+</div>
+
+<hr>
+
+<div class="clearfix">
+<img class="pictures" src="https://jinwoo-choi.github.io/pictures/howto_06.png" width="500" height="350" alt="howto_06">
+<img class="pictures" src="https://jinwoo-choi.github.io/pictures/howto_07.png" width="500" height="350" alt="howto_07">
+로그인을 완료하면 다음과 같은 창이 나타난다. Your repositories 항목에서 방금 자신이 만들었던 프로젝트를 클릭하고 아래 'Clone ~.github.io' 버튼을 클릭한다. 이어서 창이 또 나오는데 Local path를 기억해 두자. URL 항목을 클릭하고 다시 'Clone' 버튼을 눌러준다.
+</div>
+
+<hr>
+
+<div class="clearfix">
+<img class="pictures" src="https://jinwoo-choi.github.io/pictures/howto_08.png" width="400" height="150" alt="howto_08">
+Local path에 있는 주소를 따라가 보면 본인 컴퓨터에 새로운 디렉터리가 생긴 것을 볼 수 있다. 본인은 'C:\Users\Terry\Documents\GitHub'의 디렉터리로
+'JINWOO-CHOI.github.io' 폴더가 생성되었다.
+</div>
+
+<hr>
+
+<div class="clearfix">
+<img class="pictures" src="https://jinwoo-choi.github.io/pictures/howto_09.png" width="400" height="150" alt="howto_09">
+<img class="pictures" src="https://jinwoo-choi.github.io/pictures/howto_code.png" width="400" height="150" alt="howto_code">
+내 컴퓨터의 '사용자이름.github.io' 폴더 안에 html파일을 작성한다. 본인은 html파일이름을 main이라고 짓고 왼쪽과 같이 작성하였다.
+</div>
 
 </body>
 </html>
