@@ -11,10 +11,10 @@ font-family: 'NanumGothic';
 /*/////////////////////////////////////////////*/
 
 body {
-  background-color: skyblue;
+  background-color: white;
 }
 h1 {
-  text-shadow: 7px 7px 10px gray;
+  text-shadow: 7px 7px 10px skyblue;
   text-align:center;
   color: black;
   font-family: 'Hanna';
