@@ -1,0 +1,27 @@
+@font-face{
+src:url("https://jinwoo-choi.github.io/fonts/Hanna.ttf");
+font-family: 'Hanna';
+}
+
+@font-face{
+src:url("https://jinwoo-choi.github.io/fonts/Jua.ttf");
+font-family: 'Jua';
+}
+
+/*/////////////////////////////////////////////*/
+
+body {
+  background-color: white;
+}
+h1 {
+  text-shadow: 7px 7px 10px lightgreen;
+  text-align:center;
+  color: green;
+  font-family: 'Hanna';
+  font-size: 1000%;
+}
+p {
+  text-align:center;
+  font-family: 'Jua';
+  font-size: 500%;
+}
