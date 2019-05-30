@@ -6,12 +6,13 @@ font-family: 'Hanna';
 /*/////////////////////////////////////////////*/
 
 body {
-  background-color: lightgray;
+  background-color: white;
 }
 h1 {
+  text-align:center;
   color: black;
   font-family: 'Hanna';
-  font-size: 300%;
+  font-size: 1000%;
 }
 p {
   color: black;
