@@ -14,9 +14,9 @@ body {
   background-color: white;
 }
 h1 {
-  text-shadow: 7px 7px 10px lightskyblue;
+  text-shadow: 7px 7px 10px lightgreen;
   text-align:center;
-  color: lightskyblue;
+  color: green;
   font-family: 'Hanna';
   font-size: 1000%;
 }
