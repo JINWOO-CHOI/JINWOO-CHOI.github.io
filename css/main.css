@@ -1,12 +1,12 @@
 @font-fase{
 src:url("https://jinwoo-choi.github.io/fonts/Hanna.ttf");
-font-family: "Hanna";
+font-family: Hanna;
 }
 
 /*/////////////////////////////////////////////*/
 
 body {
-  background-color: gray;
+  background-color: lightgray;
 }
 h1 {
   color: black;
