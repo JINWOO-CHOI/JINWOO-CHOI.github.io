@@ -36,6 +36,16 @@ div {
 <body>
 
 
+<script language="javascript" type="text/javascript">   
+    function callResize()  
+        {  
+            var height = document.body.scrollHeight;  
+            parent.resizeTopIframe(height);  
+    }  
+    window.onload =callResize;  
+</script> 
+
+
 
 <div class="clearfix">
 <img class="pictures" src="https://jinwoo-choi.github.io/pictures/howto_01.png" width="400" height="400" alt="howto_01">
