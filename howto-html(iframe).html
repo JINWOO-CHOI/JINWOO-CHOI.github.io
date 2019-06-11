@@ -98,7 +98,7 @@ font-family: 'Jua';
 <hr style="border: inset 5px lightgreen;">
 <br>
 
-<a name="html_elements">
+<a name="html_href">
 <h2>하이퍼링크 속성</h2>
 <br>
 <p>하이퍼링크 속성은 &lt;a&gt;태그로 정의된다.<p>
@@ -107,7 +107,7 @@ font-family: 'Jua';
 </div>
 <br>
 <p>또한 하이퍼링크 속성에 덧붙여 타겟 속성이라는 것이 있다.<br>
-타겟 속성은 하이퍼링크로 연결된 문서가 어떤 형식으로 열릴지 정하는 역할을 한다.<p><br>
+타겟 속성은 하이퍼링크로 연결된 문서가 어떤 형식으로 열릴지 정하는 역할을 한다.<p>
 
 <ul style="list-style-type:square;">
   <li>_blank: 새 창으로 문서가 열리게 한다.</li>
@@ -117,8 +117,35 @@ font-family: 'Jua';
 </ul>
 
 
+<br>
 <hr style="border: inset 5px lightgreen;">
 <br>
+
+
+<a name="html_img">
+<h2>이미지 속성</h2>
+<br>
+<p>이미지 속성은 &lt;img&gt;태그로 정의된다.<p>
+<div class="code_example">
+&lt;img src="이미지.jpg"&gt;
+</div>
+<br>
+<p>또한 이미지 속성에 다양한 속성들을 추가로 넣을 수 있다.</p>
+<div class="code_example">
+&lt;img src="이미지.jpg" alt="이미지" style="width:300px;height:200px;"&gt;
+</div>
+<p>여기서 alt속성은 이미지를 대신해서 나올 텍스트를 보여주는 역할을 한다.<br>
+예를 들어 인터넷 문제나 서버 오류로 alt 텍스트가 'nice car'인 이미지를 불러오지 못했을 때,
+엑스박스 표시 옆에 'nice car'이라는 텍스트가 나오게 된다.<br>
+그 외에도 시각장애인용 페이지를 만들거나 (이미지의 alt텍스트를 읽어줌), 다른 사람이 코드를 수정하거나 열람할 때 이게 무슨 이미지인지 알려주는 등 여러 역할을 하므로
+귀찮다고 안 넣지 말고 꼭 넣어주도록 하자.<br>
+width와 height는 이미지의 넓이와 높이를 지정해준다.<p>
+
+
+<br>
+<hr style="border: inset 5px lightgreen;">
+<br>
+
 
 
 
