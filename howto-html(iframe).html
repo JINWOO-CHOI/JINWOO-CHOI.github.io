@@ -36,6 +36,11 @@ font-family: 'Jua';
 
 .pictures_center {
   text-align: center;
+  font-family: 'arial';
+}
+
+.normal_font {
+  font-family: 'arial';
 }
 
 
@@ -68,7 +73,8 @@ font-family: 'Jua';
 <a href="#html_img">3. 이미지 속성</a><br>
 <a href="#html_style">4. 스타일 속성</a><br>
 <a href="#html_class">5. 클래스 속성</a><br>
-<a href="#html_comment">6. HTML 주석 넣기</a><br>
+<a href="#html_table">6. 테이블</a><br>
+<a href="#html_comment">7. HTML 주석 넣기</a><br>
 
 <!--ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
 <br>
@@ -300,7 +306,7 @@ head에서 class를 선언하고 body에서 &lt;div class="class의 이름"&gt; 
 
 
 <a name="html_table">
-<h2>HTML 테이블</h2>
+<h2>테이블</h2>
 <hr>
 <p>HTML에서 어떤 내용을 테이블 (표) 형식으로 나타내고 싶으면 &lt;table&gt; 태그를 사용한다.<br>
 각 테이블의 행은 &lt;tr&gt; 태그로 둘러지고 테이블의 헤더는 &lt;th&gt; 태그로 두르는 형식으로 사용된다.<br>
@@ -310,37 +316,39 @@ head에서 class를 선언하고 body에서 &lt;div class="class의 이름"&gt; 
 <div class="code_example">
 <br>
 
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;body&gt;
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;th>학과&lt;/th&gt;
-    &lt;th>학년&lt;/th&gt;
-    &lt;th>이름&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td>컴퓨터공학과&lt;/td&gt;
-    &lt;td>2학년&lt;/td&gt;
-    &lt;td>김철수&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td>전자공학과&lt;/td&gt;
-    &lt;td>3학년&lt;/td&gt;
-    &lt;td>김길동&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr>
-    &lt;td>화학공학과&lt;/td&gt;
-    &lt;td>1학년&lt;/td&gt;
-    &lt;td>김유신&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+&lt;!DOCTYPE html&gt;<br>
+&lt;html&gt;<br>
+&lt;body&gt;<br>
+&lt;table&gt;<br>
+ㅤㅤ&lt;tr&gt;<br>
+ㅤㅤㅤㅤ&lt;th>학과&lt;/th&gt;<br>
+ㅤㅤㅤㅤ&lt;th>학년&lt;/th&gt;<br>
+ㅤㅤㅤㅤ&lt;th>이름&lt;/th&gt;<br>
+ㅤㅤ&lt;/tr&gt;<br>
+ㅤㅤ&lt;tr&gt;<br>
+ㅤㅤㅤㅤ&lt;td>컴퓨터공학과&lt;/td&gt;<br>
+ㅤㅤㅤㅤ&lt;td>2학년&lt;/td&gt;<br>
+ㅤㅤㅤㅤ&lt;td>김철수&lt;/td&gt;<br>
+ㅤㅤ&lt;/tr&gt;<br>
+ㅤㅤ&lt;tr&gt;<br>
+ㅤㅤㅤㅤ&lt;td>전자공학과&lt;/td&gt;<br>
+ㅤㅤㅤㅤ&lt;td>3학년&lt;/td&gt;<br>
+ㅤㅤㅤㅤ&lt;td>김길동&lt;/td&gt;<br>
+ㅤㅤ&lt;/tr&gt;<br>
+ㅤㅤ&lt;tr><br>
+ㅤㅤㅤㅤ&lt;td>화학공학과&lt;/td&gt;<br>
+ㅤㅤㅤㅤ&lt;td>1학년&lt;/td&gt;<br>
+ㅤㅤㅤㅤ&lt;td>김유신&lt;/td&gt;<br>
+ㅤㅤ&lt;/tr&gt;<br>
+&lt;/table&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
 
 <br><br>
 </div>
 
+
+<div class="normal_font">
 <br>
 
 <table>
@@ -365,13 +373,12 @@ head에서 class를 선언하고 body에서 &lt;div class="class의 이름"&gt; 
     <td>김유신</td>
   </tr>
 </table>
-
 <br>
+<br>
+</div>
 
 
-<p>주석을 다는 것은 코드를 분석하는 이들을 배려하는 수단임과 동시에 자기 자신 또한 배려하는 수단이다.
-코드를 짜는 것은 혼자 하는 일이 아니기 때문에 여러사람과 작업을 할 때에는 내가 짠 코드에 반드시 주석을 달도록 하자.
-<br></p>
+<p>세로 행의 같은 요소들 끼리는 &lt;td&gt; 태그로 묶여있다는 사실을 알 수 있다.</p>
 
 
 
