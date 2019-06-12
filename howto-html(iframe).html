@@ -379,7 +379,7 @@ head에서 class를 선언하고 body에서 &lt;div class="class의 이름"&gt; 
 </div>
 
 
-<p>세로 행의 같은 요소들 끼리는 &lt;td&gt; 태그로 묶여있다는 사실을 알 수 있다.</p>
+<p>&#10038;세로 행의 같은 요소들 끼리는 &lt;td&gt; 태그로 묶여있다는 사실을 알 수 있다.</p>
 
 
 
@@ -393,19 +393,19 @@ head에서 class를 선언하고 body에서 &lt;div class="class의 이름"&gt; 
 <a name="html_list">
 <h2>리스트 넣기</h2>
 <hr>
-<p>리스트는 리스트 자체를 나타내는 &lt;ul&gt; 태그와 리스트의 각 요소를 나타내는 &lt;li&gt; 로 이루어 진다.<br>
-각 요소 앞에는 작은 동그라미, 작은 사각형 등 마크가 들어가게 된다.<br></p>
+<p>리스트는 리스트 자체를 나타내는 &lt;ul&gt; 태그와 리스트의 각 내용을 나타내는 &lt;li&gt; 로 이루어 진다.<br>
+각 내용 앞에는 동그라미, 사각형 등 마크가 들어가게 된다.<br></p>
 
 <div class="code_example">
 <br>
 
-&lt;ul&gt;
-  &lt;li&gt;아메리카노&lt;/li&gt;
-  &lt;li&gt;카페라떼&lt;/li&gt;
-  &lt;li&gt;카푸치노&lt;/li&gt;
-&lt;/ul&gt;  
+&lt;ul&gt;<br>
+  &lt;li&gt;아메리카노&lt;/li&gt;<br>
+  &lt;li&gt;카페라떼&lt;/li&gt;<br>
+  &lt;li&gt;카푸치노&lt;/li&gt;<br>
+&lt;/ul&gt;<br>
 
-<br><br>
+<br>
 </div>
 
 <div class='normal_font'>
@@ -417,10 +417,35 @@ head에서 class를 선언하고 body에서 &lt;div class="class의 이름"&gt; 
 </ul> 
 
 </div>
+<br>
 
-<p>주석을 다는 것은 코드를 분석하는 이들을 배려하는 수단임과 동시에 자기 자신 또한 배려하는 수단이다.
-코드를 짜는 것은 혼자 하는 일이 아니기 때문에 여러사람과 작업을 할 때에는 내가 짠 코드에 반드시 주석을 달도록 하자.
-<br></p>
+<p>동그라미가 아닌 다른 마크도 적용할 수 있다. &lt;ul&gt; 태그 옆에 아래와 같이 스타일 요소를 넣어주면 된다.<br></p>
+
+<div class="code_example">
+<br>&lt;ul style="list-style-type:disc;"&gt; <div class="code_example_explain">-> 기본값과 같음 (●)</div><br>
+</div>
+
+<p></p>
+
+<div class="code_example">
+<br>&lt;ul style="list-style-type:circle;"&gt; <div class="code_example_explain">-> 안이 빈 동그라미 (○)</div><br>
+</div>
+
+<p></p>
+
+
+<div class="code_example">
+<br>&lt;ul style="list-style-type:square;"&gt; <div class="code_example_explain">-> 사각형 (■)</div><br>
+</div>
+
+<p></p>
+
+<div class="code_example">
+<br>&lt;ul style="list-style-type:none;"&gt; <div class="code_example_explain">-> 마크 없음 ( )</div><br>
+</div>
+
+
+
 
 
 
